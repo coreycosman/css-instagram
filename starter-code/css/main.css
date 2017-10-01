@@ -1,0 +1,105 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+position: absolute;
+background: beige;
+}
+
+.bluebox {
+  position: relative;
+  background-color: lightblue;
+  width: 880px;
+  height: 250px;
+
+}
+
+.iphone {
+  position: relative;
+    left: 87px;
+    height: 246px;
+}
+
+#phone {
+  height: 143%;
+  bottom: 30px;
+}
+
+.iphone {
+  bottom: 20px;
+}
+
+.textbox {
+  left: 372px;
+  float: left;
+  bottom: 175px;
+  width: 326px;
+  overflow: hidden;
+  display: inline-block;
+  background: white;
+  position: relative;
+}
+
+.whitebox {
+  position: relative;
+  height: 6px;
+  top: 272px;
+  right: 125px;
+  display: inline-block;
+
+}
+
+.logo {
+  position: relative;
+  left: 326px;
+  top: 100px;
+}
+
+.login {
+  position: relative;
+  top: 40px;
+  left: 681px;
+  background-color: deepskyblue;
+  margin-right: 281px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  width: 80px;
+}
+
+#login_picture {
+  position: relative;
+  top: 5px;
+}
+
+footer {
+  position: relative;
+  bottom: 172px;
+  left: 700px;
+}
+
+.navcontainer {
+  position: relative;
+  left: 230px;
+  bottom: 400px;
+  color: mediumblue;
+  font-weight: bold;
+}
+
+#navboxes {
+  margin: 10px;
+}
